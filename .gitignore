@@ -1,4 +1,9 @@
-/.idea
-/web
 /vendor
 /.history
+!web/
+web/*
+!web/wp-content/
+web/wp-content/*
+!web/wp-content/themes/
+web/wp-content/themes/*
+!web/wp-content/themes/premiumbuyersgroup/
