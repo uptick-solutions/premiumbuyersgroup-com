@@ -2,3 +2,10 @@
  Theme Name:   Premium Buyers Group
  Template:     the-conference
 */
+.banner-caption {
+  background: none;
+}
+
+.mptt-shortcode-wrapper .mptt-shortcode-table tbody td.event {
+  background-color: #e6e6e6
+}
