@@ -7,5 +7,13 @@
 }
 
 .mptt-shortcode-wrapper .mptt-shortcode-table tbody td.event {
-  background-color: #e6e6e6
+  background-color: #e6e6e6;
+}
+
+.event-title {
+  text-decoration: none;
+}
+
+.wpcf7-list-item > input[type=checkbox] {
+  display: inline-table;
 }
