@@ -29,7 +29,8 @@
     "wpackagist-plugin/contact-form-7": "^5.1",
     "wpackagist-plugin/mp-timetable": "^2.2",
     "wpackagist-plugin/wp-google-map-plugin": "^4.0",
-    "wpackagist-theme/the-conference": "^1.0"
+    "wpackagist-theme/the-conference": "^1.0",
+    "wpackagist-plugin/all-in-one-wp-migration": "^6.9.3"
   },
   "extra": {
     "installer-paths": {
