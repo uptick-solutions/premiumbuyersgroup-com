@@ -17,3 +17,7 @@
 .wpcf7-list-item > input[type=checkbox] {
   display: inline-table;
 }
+
+.mptt-inner-event-content {
+  padding: 0 15px 0 15px;
+}

@@ -13,7 +13,7 @@
      <?php echo $item[ 'post' ]->text_color ? 'color:' . $item[ 'post' ]->text_color . ';' : '' ?>
      <?php echo ! empty( $height ) ? 'height:' . $height . '%;' : '' ?>
      <?php echo ! empty( $top ) ? 'top:' . $top . '%;' : '' ?>">
-	<div class="mptt-inner-event-content-spd">
+	<div class="mptt-inner-event-content">
 		<?php if ( $params[ 'title' ] ) {
 			$disable_url = (bool) $item[ 'post' ]->timetable_disable_url || (bool) $params[ 'disable_event_url' ];
 
@@ -38,8 +38,8 @@
 			<p class="event-subtitle"><?php echo $item[ 'post' ]->sub_title; ?></p>
 		<?php endif;
 
-		if ( $params[ 'description' ] && ! empty( $item[ 'description' ] ) ): ?>
-			<p class="event-description"><?php echo $item[ 'description' ]; ?></p>
+		if ( !empty( $item[ 'post' ]->post_content) ): ?>
+			<p class="event-description"><?php echo $item[ 'post' ]->post_content; ?></p>
 		<?php endif;
 
 		if ( $params[ 'user' ] && $item[ 'user_id' ] != '-1' ): ?>
