@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="68c6883a-6d16-45b1-ad1e-c651d1551b23" name="Premium Buyers Group PRODUCTION" url="https://premiumbuyersgroup.com">
+        <fileTransfer host="3.217.27.208" port="22" privateKey="$USER_HOME$/.ssh/Lightsail-PremiumBuyersGroup.pem" rootFolder="/opt/bitnami/apps/wordpress/htdocs" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
